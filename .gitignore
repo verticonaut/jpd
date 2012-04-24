@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #----------------------------------------------------------------------------
 # Ignore these files when commiting to a git repository.
 #
@@ -6,7 +7,7 @@
 # The original version of this file is found here:
 # https://github.com/RailsApps/rails3-application-templates/raw/master/files/gitignore.txt
 #
-# Corrections? Improvements? Create a GitHub issue: 
+# Corrections? Improvements? Create a GitHub issue:
 # http://github.com/RailsApps/rails3-application-templates/issues
 #----------------------------------------------------------------------------
 
@@ -73,3 +74,20 @@ db/*.sqlite3
 
 # vim artifacts
 **.swp
+
+*.rbc
+*.sassc
+.sass-cache
+capybara-*.html
+.rspec
+/.bundle
+/vendor/bundle
+/log/*
+/tmp/*
+/db/*.sqlite3
+/public/system/*
+/coverage/
+/spec/tmp/*
+**.orig
+rerun.txt
+pickle-email-*.html
