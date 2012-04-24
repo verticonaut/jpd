@@ -12,18 +12,23 @@
     = csrf_meta_tags
     = yield(:head)
   %body
-    %header.navbar.navbar-fixed-top
-      %nav.navbar-inner
-        .container
-          = render 'layouts/navigation'
-    #main{:role => "main"}
-      .container
-        .content
-          .row
-            .span12
-              - flash.each do |name, msg|
-                %div{:class => "alert alert-#{name == :notice ? "success" : "error"}"}
-                  %a.close{"data-dismiss" => "alert"} ×
-                  = msg
-              = yield
-          %footer
+    -#%header.navbar.navbar-fixed-bottom
+    -#  %nav.navbar-inner
+    -#    .container
+    -#      = render 'layouts/navigation'
+    -# #main{:role => "main"}
+    -#   .container
+    -#     .content
+    -#       .row
+    -#         .span12
+    -#           - flash.each do |name, msg|
+    -#             %div{:class => "alert alert-#{name == :notice ? "success" : "error"}"}
+    -#               %a.close{"data-dismiss" => "alert"} ×
+    -#               = msg
+    -#           = yield
+    -#       %footer
+    -# supersize progress bar
+    #caption_container
+      Yaiii
+    #thumb-tray.load-item{:style => "bottom: 100px;"}
+      #progress-bar
