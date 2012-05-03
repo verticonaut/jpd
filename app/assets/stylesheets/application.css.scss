@@ -23,3 +23,42 @@
   -moz-box-shadow: 0 1px 2px rgba(0,0,0,.15);
   box-shadow: 0 1px 2px rgba(0,0,0,.15);
 }
+
+
+body {
+  background:transparent url(../images/dark/bg.png);
+  color:#dfdfdf;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  color:#fff;
+}
+
+#header {
+  border-right:3px solid #393939;
+  background:transparent url(/images/header/bg.png);
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  height: 100%;
+  width: 169px;
+  z-index: 5;
+  margin: 0;
+  overflow: visible;
+
+  #logo {
+    position: absolute;
+    left: 30px;
+    top: 90px;
+  }
+
+}
+
+#nav {
+  margin-top: 260px;
+  text-align: right;
+  margin-right: 0px;
+}
+ol, ul {
+  list-style: none;
+}

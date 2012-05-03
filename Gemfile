@@ -14,3 +14,7 @@ gem "bootstrap-sass", ">= 2.0.1"
 group :test do
   gem 'minitest'
 end
+
+group :development do
+  gem 'hpricot'
+end
